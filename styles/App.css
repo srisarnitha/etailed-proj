@@ -1,0 +1,10 @@
+   
+   .App {
+       font-family: Arial, sans-serif;
+       background-color: #f9f9f9;
+       min-height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   

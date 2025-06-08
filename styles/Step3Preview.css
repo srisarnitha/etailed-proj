@@ -1,0 +1,46 @@
+.preview-panel {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.preview-panel.light {
+  background: #f7faff;
+  color: #333;
+}
+.preview-panel.dark {
+  background: #2f2f2f;
+  color: #fff;
+}
+.preview-panel.colorful {
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+  color: #222;
+}
+
+.preview-content {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.preview-panel.grid .preview-content {
+  flex-wrap: wrap;
+}
+.preview-panel.list .preview-content {
+  flex-direction: column;
+}
+.preview-panel.compact .preview-content .box {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
